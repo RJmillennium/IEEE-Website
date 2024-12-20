@@ -67,25 +67,25 @@ window.addEventListener('beforeunload', function() {
 });
 
 // GSAP animations
-gsap.from(".text h1", { duration: 1.5, y: 50, opacity: 0, ease: "power3.out", delay: 0.5 });
-gsap.from(".text p", { duration: 1.5, y: 50, opacity: 0, ease: "power3.out", delay: 0.7 });
-gsap.from(".button", { duration: 1.5, y: 50, opacity: 0, ease: "power3.out", delay: 0.9 });
-gsap.from(".header nav", { duration: 1.5, y: 50, opacity: 0, ease: "power3.out", delay: 1.1 });
-gsap.registerPlugin(ScrollTrigger);
+// gsap.from(".text h1", { duration: 1.5, y: 50, opacity: 0, ease: "power3.out", delay: 0.5 });
+// gsap.from(".text p", { duration: 1.5, y: 50, opacity: 0, ease: "power3.out", delay: 0.7 });
+// gsap.from(".button", { duration: 1.5, y: 50, opacity: 0, ease: "power3.out", delay: 0.9 });
+// gsap.from(".header nav", { duration: 1.5, y: 50, opacity: 0, ease: "power3.out", delay: 1.1 });
+// gsap.registerPlugin(ScrollTrigger);
 
-gsap.to(".cards-container", {
-    scrollTrigger: {
-        trigger: ".cards-container",
-        scrub: true
-    },
-    x: 500,
-});
+// gsap.to(".cards-container", {
+//     scrollTrigger: {
+//         trigger: ".cards-container",
+//         scrub: true
+//     },
+//     x: 500,
+// });
 
-gsap.to(".text2 h1", {
-    scrollTrigger: {
-        trigger: ".cards-container",
-        scrub: true
-    },
-    x: 500,
-    y: 50
-});
+// gsap.to(".text2 h1", {
+//     scrollTrigger: {
+//         trigger: ".cards-container",
+//         scrub: true
+//     },
+//     x: 500,
+//     y: 50
+// });
